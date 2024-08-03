@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-div">
+            <div class="content">
+                <h1 id="logo">OrganizeMe <img  src="images/clk.png" style="height: 40px;"> </h1>
+                <div ><p id="tagline">Empower Your Projects,<br>Unleash Your Potential!</p>
+                <p id="p2">Free. Unlimited. Online.</p>
+                <p id="p3">Sign in now and manage your projects efficiently.</p>
+                </div>
+                <p style="text-align: right;">
+                <span><img src="images/help.png" style="height: 20px;"><a href="help.html" style="color: white; font-family: cursive;">Help</a></span>
+                </p>
+            </div>
+        </div><!--Left-Div Ending-->
+        <div class="right-div">
+            <h1 id="log">Login Here</h1>
+            <div id="login-box">
+            <form method="post">
+                <label for="email"><b>Email</b></label><br>
+                <input type="email" name="email" placeholder="Enter Email" /><br>
+                <label for="password"><b>Password</b></label><br>
+                <input type="password" name="password" placeholder="Enter Password" /><br>
+                <span class="psw"><a href="change_password.html">Forgot password?</a></span>
+                <input id="button" type="button" name="submit" value="Submit" onclick="location.href='dashboard.html';"/>
+                
+                <p>Don't have an account?<a href="signup.html">Sign Up</a></p>
+            </form>
+            
+            </div><!--Login-Box Div Ending-->
+        
+        </div><!--Right-Div Ending-->
+    </div><!--Container Div Ending-->
+</body>
+</html>
